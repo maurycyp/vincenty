@@ -12,7 +12,7 @@ setup(
     author_email=['github.com@wayheavy.com'],
     url='https://github.com/maurycyp/vincenty',
     packages=['vincenty'],
-    license=open('LICENSE').read(),
+    license='Unlicense',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
