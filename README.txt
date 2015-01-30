@@ -1,7 +1,10 @@
-Vincenty
+This library implements Vincenty's solution to the inverse geodetic problem. It
+is based on the WGS 84 reference ellipsoid and is accurate to within 1 mm (!) or
+better.
 
-Calculate the geographical distance (in kilometers or miles) between 2 points
-with extreme accuracy.
+This formula is widely used in geographic information systems (GIS) and is much
+more accurate than methods for computing the great-circle distance (which assume
+a spherical Earth).
 
 
 Example: distance between Boston and New York City
