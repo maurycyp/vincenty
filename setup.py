@@ -5,7 +5,7 @@ except ImportError:
 
 setup(
     name='vincenty',
-    version='0.1.0',
+    version='0.1.1',
     description='Calculate the geographical distance between 2 points with extreme accuracy.',
     long_description=open('README.txt').read(),
     author='Maurycy Pietrzak',
