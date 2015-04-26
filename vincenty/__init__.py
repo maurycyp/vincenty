@@ -10,6 +10,7 @@ MILES_PER_KILOMETER = 0.621371
 MAX_ITERATIONS = 200
 CONVERGENCE_THRESHOLD = 1e-12  # .000,000,000,001
 
+
 def vincenty_inverse(point1, point2, miles=False):
     """
     Vincenty's formula (inverse method) to calculate the distance (in
@@ -82,7 +83,7 @@ def vincenty_inverse(point1, point2, miles=False):
 
     s /= 1000  # meters to kilometers
     if miles:
-        s *=  MILES_PER_KILOMETER  # kilometers to miles
+        s *= MILES_PER_KILOMETER  # kilometers to miles
 
     return round(s, 6)
 
