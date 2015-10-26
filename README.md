@@ -1,4 +1,6 @@
-# Vincenty
+Vincenty
+========
+
 Calculate the geographical distance (in kilometers or miles) between 2 points
 with extreme accuracy.
 
@@ -10,22 +12,30 @@ This formula is widely used in geographic information systems (GIS) and is much
 more accurate than methods for computing the great-circle distance (which assume
 a spherical Earth).
 
-## Example: distance between Boston and New York City
-```python
->>> from vincenty import vincenty
->>> boston = (42.3541165, -71.0693514)
->>> newyork = (40.7791472, -73.9680804)
->>> vincenty(boston, newyork)
-298.396057
->>> vincenty(boston, newyork, miles=True)
-185.414657
-```
+Example: distance between Boston and New York City
+--------------------------------------------------
 
-## Installation
-```bash
-$ pip install vincenty
-```
+.. code:: python
 
-## See also
+   >>> from vincenty import vincenty
+   >>> boston = (42.3541165, -71.0693514)
+   >>> newyork = (40.7791472, -73.9680804)
+   >>> vincenty(boston, newyork)
+   298.396057
+   >>> vincenty(boston, newyork, miles=True)
+   185.414657
+
+
+Installation
+------------
+
+.. code:: bash
+
+   $ pip install vincenty
+
+
+References
+----------
+
 * http://en.wikipedia.org/wiki/Vincenty%27s_formulae
 * http://en.wikipedia.org/wiki/World_Geodetic_System
