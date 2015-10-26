@@ -7,7 +7,7 @@ setup(
     name='vincenty',
     version='0.1.2',
     description='Calculate the geographical distance between 2 points with extreme accuracy.',
-    long_description=open('README.txt').read(),
+    long_description=open('README.rst').read(),
     author='Maurycy Pietrzak',
     author_email=['github.com@wayheavy.com'],
     url='https://github.com/maurycyp/vincenty',
