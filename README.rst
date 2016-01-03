@@ -37,5 +37,5 @@ Installation
 References
 ----------
 
-* http://en.wikipedia.org/wiki/Vincenty%27s_formulae
+* https://en.wikipedia.org/wiki/Vincenty's_formulae
 * http://en.wikipedia.org/wiki/World_Geodetic_System
