@@ -38,4 +38,4 @@ References
 ----------
 
 * https://en.wikipedia.org/wiki/Vincenty's_formulae
-* http://en.wikipedia.org/wiki/World_Geodetic_System
+* https://en.wikipedia.org/wiki/World_Geodetic_System
